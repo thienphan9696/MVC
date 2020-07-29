@@ -467,6 +467,7 @@
     </Content>
     <Content Include="Views\Pages404\Index.cshtml" />
     <Content Include="Views\Pages500\Index.cshtml" />
+    <Content Include="Views\Employee\Edit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
