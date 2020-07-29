@@ -23,7 +23,12 @@ namespace Asp.NETMVCCRUD.Controllers
 
         public ActionResult GetData()
         {
-            return Json(new { data = employeeService.GetAll() }, JsonRequestBehavior.AllowGet);
+            //return Json(new { data = employeeService.GetAll() }, JsonRequestBehavior.AllowGet);
+			            using (DBModel db = new DBModel())
+            {
+                List<Employee> empList = db.Employees.ToList<Employee>();
+                return Json(new { data = empList }, JsonRequestBehavior.AllowGet);
+            }
         }
 
         [HttpGet]
