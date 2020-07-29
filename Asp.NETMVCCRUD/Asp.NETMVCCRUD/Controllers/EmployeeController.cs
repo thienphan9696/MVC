@@ -81,6 +81,70 @@ namespace Asp.NETMVCCRUD.Controllers
             }
         }
 
+        [HttpGet]
+        public ActionResult Edit(int id = 0)
+        {
+            if (id == 0)
+                return View();
+            else
+            {
+                using (DBModel db = new DBModel())
+                {
+                    var check = db.Employees.Where(x => x.EmployeeID == id).FirstOrDefault<Employee>();
+                    if (check != null)
+                    {
+                        return View(db.Employees.Where(x => x.EmployeeID == id).FirstOrDefault<Employee>());
+                    }
+                    else
+                    {
+                        return null;
+                    }
+
+                }
+            }
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Employee emp)
+        {
+
+            if (emp.IsValidate() == false)
+            {
+                return Json(new { success = false, message = "An error occurred" }, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                Thread.Sleep(200);
+                using (DBModel db = new DBModel())
+                {
+                    if (emp.EmployeeID == 0)
+                    {
+                        db.Employees.Add(emp);
+                        db.SaveChanges();
+                        return Json(new { success = true, message = "Add Successfully" }, JsonRequestBehavior.AllowGet);
+                    }
+                    else
+                    {
+                        // Lấy dữ liệu theo Id trên form
+                        var check = db.Employees.Where(x => x.EmployeeID == emp.EmployeeID).FirstOrDefault<Employee>();
+
+                        //Kiểm tra ID trên form có tồn tại không? Có thì cho phép Update, ngược lại báo lỗi
+                        if (check != null)
+                        {
+                            // db.Entry(emp).State = EntityState.Modified;
+                            db.Entry(check).CurrentValues.SetValues(emp);
+                            db.SaveChanges();
+                            return Json(new { success = true, message = "Updated Successfully" }, JsonRequestBehavior.AllowGet);
+                        }
+                        else
+                        {
+                            return Json(new { success = false, message = "Data does not exist. Please reload page!" }, JsonRequestBehavior.AllowGet);
+                        }
+                    }
+                }
+            }
+        }
+
         [HttpPost]
         public ActionResult Delete(int id)
         {
@@ -96,7 +160,7 @@ namespace Asp.NETMVCCRUD.Controllers
                     return Json(new { success = true, message = "Deleted Successfully" }, JsonRequestBehavior.AllowGet);
                 }
                 else{
-                    return Json(new { success = false, message = "Data does not exist. Please reload page!" }, JsonRequestBehavior.AllowGet);
+                    return null;
                 }
             }
         }
