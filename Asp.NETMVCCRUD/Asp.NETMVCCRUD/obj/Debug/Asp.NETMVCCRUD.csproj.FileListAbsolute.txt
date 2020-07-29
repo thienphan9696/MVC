@@ -1,0 +1,48 @@
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\Asp.NETMVCCRUD.dll.config
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\Asp.NETMVCCRUD.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\Asp.NETMVCCRUD.pdb
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\EntityFramework.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\EntityFramework.SqlServer.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\Microsoft.Web.Infrastructure.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Helpers.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Mvc.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Razor.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.Deployment.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.Razor.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\EntityFramework.xml
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\EntityFramework.SqlServer.xml
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Helpers.xml
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Mvc.xml
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Razor.xml
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.xml
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.Deployment.xml
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.Razor.xml
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\obj\Debug\Asp.NETMVCCRUD.csprojResolveAssemblyReference.cache
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\obj\Debug\Asp.NETMVCCRUD.dll
+F:\Youtube Channel\Dotnet Mob\jQuery Datatable in Asp.Net MVC\Asp.Net MVC Crud\project\Asp.NETMVCCRUD\Asp.NETMVCCRUD\obj\Debug\Asp.NETMVCCRUD.pdb
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\Asp.NETMVCCRUD.dll.config
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\Asp.NETMVCCRUD.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\Asp.NETMVCCRUD.pdb
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\EntityFramework.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\EntityFramework.SqlServer.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\Microsoft.Web.Infrastructure.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Helpers.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Mvc.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Razor.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.Deployment.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.Razor.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\EntityFramework.xml
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\EntityFramework.SqlServer.xml
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Helpers.xml
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Mvc.xml
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.Razor.xml
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.xml
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.Deployment.xml
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\bin\System.Web.WebPages.Razor.xml
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\obj\Debug\Asp.NETMVCCRUD.csprojAssemblyReference.cache
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\obj\Debug\Asp.NETMVCCRUD.csproj.CoreCompileInputs.cache
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\obj\Debug\Asp.NETMVCCRUD.csproj.CopyComplete
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\obj\Debug\Asp.NETMVCCRUD.dll
+G:\C#\Asp.NETMVCCRUD\Asp.NETMVCCRUD\obj\Debug\Asp.NETMVCCRUD.pdb
