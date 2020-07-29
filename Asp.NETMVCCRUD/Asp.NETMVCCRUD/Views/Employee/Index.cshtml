@@ -44,7 +44,9 @@
                     { "data": "Salary" },
 
                     {"data":"EmployeeID" , "render" : function (data) {
-                        return "<a class='btn btn-default btn-sm' onclick=PopupForm('@Url.Action("AddOrEdit","Employee")/" + data + "')><i class='fa fa-pencil'></i> Edit</a><a class='btn btn-default btn-sm' style='margin-left:5px' onclick=Delete("+data+")><i class='fa fa-trash'></i> Delete</a>";
+                        return "<a class='btn btn-default btn-sm' onclick=PopupForm1('@Url.Action("Edit","Employee")/" + data + "')><i class='fa fa-pencil'></i> Edit</a><a class='btn btn-default btn-sm' style='margin-left:5px' onclick=Delete("+data+")><i class='fa fa-trash'></i> Delete</a>";
+                        //return "<a class='btn btn-default btn-sm' onclick=PopupForm('@Url.Action("AddOrEdit","Employee")/" + data + "')><i class='fa fa-pencil'></i> Edit</a><a class='btn btn-default btn-sm' style='margin-left:5px' onclick=Delete("+data+")><i class='fa fa-trash'></i> Delete</a>";
+
                     },
                         "orderable": false,
                         "searchable":false,
@@ -82,6 +84,38 @@
             }
         }
 
+        function PopupForm1(url) {
+            var formDiv = $('<div/>');
+            //Kiểm tra popup có được bật chưa
+            if (flag == 0) {
+                $.get(url)
+                    .done(function (response) {
+                        if (response != "") {
+                            formDiv.html(response);
+                            Popup = formDiv.dialog({
+                                autoOpen: true,
+                                resizable: false,
+                                title: 'Employee Details',
+                                height: 500,
+                                width: 700,
+                                close: function () {
+                                    Popup.dialog('destroy').remove();
+                                    //Tắt cờ
+                                    flag = 0;
+                                }
+                            });
+                        }
+                        else {
+                            alert("Data does not exist. The web page will be reloaded!")
+                            dataTable.ajax.reload();
+                            flag = 0;
+                        }
+                    })
+                //Bật cờ
+                flag = 1;
+            }
+        }
+
         function SubmitForm(form) {
             $.validator.unobtrusive.parse(form);
             if ($(form).valid()){
@@ -114,7 +148,8 @@
         function Delete(id) {
             //Kiểm tra cờ
             if (flag == 0) {
-                if (confirm('Xác nhận xóa thông tin!')){
+                if (confirm('Xác nhận xóa thông tin!')) {
+
                     $.ajax({
                         type: "POST",
                         url: '@Url.Action("Delete","Employee")/' + id,
